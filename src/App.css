@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans:wght@100&display=swap');
+
+#root {
+  background-color: rgb(220, 216, 193);
+}
+
+.App {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 17px;
+  background-color: rgb(220, 216, 193);
+  color:rgb(37, 34, 4);
+  padding-bottom: 20px;
+}
+
+p {
+  color: rgb(50, 45, 11);
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  color: rgb(37, 34, 4);
+}
+
+.nav {
+  background-color: rgb(109, 21, 4);
+  color: 228, 224, 198;
+  display: flex;
+  justify-content: space-between;
+  padding: 7px;
+}
+
+.navMain {
+  padding-left: 7px;
+  padding-right: 10px;
+  color: rgb(228, 224, 198)
+}
+
+.navShelf {
+  padding-left: 10px;;
+  color: rgb(228, 224, 198);
+}
+
+.searchBar {
+  padding-right: 7px;;
+}
+
+.header {
+  color: rgb(41, 36, 1);
+  background-color: rgb(220, 216, 193);
+  font-size: 45px;
+  text-align: center;
+}
+
+
+/* All Books */
+.booksDisplay {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding: 5px;
+}
+
+.allBooksCover {
+  width: 80px;
+}
+
+.bookView {
+  padding-bottom: 0px;
+}
+
+/* Book Page */
+.aBook {
+  width:250px;
+  border-radius: 10%;
+  border-width: 10px;
+  border-color: whitesmoke;
+}
+
+.oneBook {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.synop{
+  font-family: 'Inter', sans-serif;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.pub {
+  text-align: center;
+  font-size: 14px;
+  color:rgb(13, 12, 1);
+}
+
+/* Results */
+
+.results {
+  padding-bottom: 40%;
+}
+
+/* Pagination  */
+.container {
+  justify-content: center;
+  display: flex;
+  list-style: none;
+}
+
+.page {
+  padding: 10px;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  margin-right: 10px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.disabled{
+  cursor: not-allowed;
+}
+
+.active{
+  border: 2px solid #000;
+  font-weight: bold;
+}
+
+.previous{
+  padding: 10px;
+  border-radius: 6px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.break{
+  padding: 10px;
+}
+
+.next{
+  padding: 10px;
+  border-radius: 6px;
+  margin-right: 10px;
+  cursor: pointer;
+}
